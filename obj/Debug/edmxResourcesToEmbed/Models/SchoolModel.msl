@@ -2,7 +2,7 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="midtermModelStoreContainer" CdmEntityContainer="DefaultConnection">
     <EntitySetMapping Name="Courses">
-      <EntityTypeMapping TypeName="midtermModel.Cours">
+      <EntityTypeMapping TypeName="midtermModel.Course">
         <MappingFragment StoreEntitySet="Courses">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="CourseCode" ColumnName="CourseCode" />

@@ -22,7 +22,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="midtermModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Cours">
+        <EntityType Name="Course">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
@@ -32,7 +32,7 @@
           <Property Name="CourseDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="DefaultConnection" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Courses" EntityType="Self.Cours" />
+          <EntitySet Name="Courses" EntityType="midtermModel.Course" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
@@ -41,7 +41,7 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="midtermModelStoreContainer" CdmEntityContainer="DefaultConnection">
           <EntitySetMapping Name="Courses">
-            <EntityTypeMapping TypeName="midtermModel.Cours">
+            <EntityTypeMapping TypeName="midtermModel.Course">
               <MappingFragment StoreEntitySet="Courses">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="CourseCode" ColumnName="CourseCode" />

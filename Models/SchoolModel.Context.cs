@@ -25,6 +25,6 @@ namespace comp3026Midterm.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Cours> Courses { get; set; }
+        public virtual DbSet<Course> Courses { get; set; }
     }
 }

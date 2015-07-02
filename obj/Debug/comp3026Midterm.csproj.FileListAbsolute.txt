@@ -25,6 +25,5 @@ c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\bin\System
 c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\bin\System.Web.WebPages.Razor.xml
 c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\bin\Antlr3.Runtime.pdb
 c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\bin\Newtonsoft.Json.xml
-c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\obj\Debug\comp3026Midterm.csprojResolveAssemblyReference.cache
 c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\obj\Debug\comp3026Midterm.dll
 c:\users\tomsec\documents\visual studio 2013\Projects\comp3026Midterm\obj\Debug\comp3026Midterm.pdb
