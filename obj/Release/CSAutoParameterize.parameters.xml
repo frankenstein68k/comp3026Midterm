@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.SchoolModel.csdl|res://*/Models.SchoolModel.ssdl|res://*/Models.SchoolModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=n2ehawkaht.database.windows.net;initial catalog=midterm;persist security info=True;user id=mac-man6;password=D0nkeyPunch;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\tomsec\\documents\\visual\ studio\ 2013\\Projects\\comp3026Midterm\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

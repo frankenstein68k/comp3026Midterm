@@ -22,7 +22,7 @@ namespace comp3026Midterm.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Welcome to my Contact Page.";
 
             return View();
         }

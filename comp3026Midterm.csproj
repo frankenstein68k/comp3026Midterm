@@ -170,6 +170,7 @@
       <DependentUpon>SchoolModel.edmx</DependentUpon>
       <LastGenOutput>SchoolModel.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\comp3026Midterm8498.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
